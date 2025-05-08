@@ -35,12 +35,12 @@ print(result)
 # print("Actual Features")
 # print("original shape:", x.shape)
 # print(f_chi.shape)
-# print("Selected Features of SelectFpr")
+# print("Selected Featur es of SelectFpr")
 # print(result[selector.get_support()])  
 
 
-fdr_mi = SelectFdr(chi2, alpha=0.05)
-X_mi_selected = fdr_mi.fit_transform(x, y)
-print(X_mi_selected.shape)
-print("Selected Features of SelectFdr")
-print(result[fdr_mi.get_support()])  # Use Selector instead of selector
+# fdr_mi = SelectFdr(chi2, alpha=0.05)
+# X_mi_selected = fdr_mi.fit_transform(x, y)
+# print(X_mi_selected.shape)
+# print("Selected Features of SelectFdr")
+# print(result[fdr_mi.get_support()])  # Use Selector instead of selector
