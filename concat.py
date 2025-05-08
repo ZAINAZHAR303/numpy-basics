@@ -24,9 +24,6 @@ four_dim_array = np.array([
         [[13, 14], [15, 16]]
     ]
 ])
-19
-
-24
 
 print(four_dim_array.shape)
 
